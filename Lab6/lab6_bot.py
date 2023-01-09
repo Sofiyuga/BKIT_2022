@@ -7,7 +7,7 @@ from aiogram.dispatcher.filters import Text
 msg_set1 = open('bad.txt', 'r', encoding='utf-8').read().splitlines()
 msg_set2 = open('good.txt', 'r', encoding='utf-8').read().splitlines()
 msg_set3 = open('you.txt', 'r', encoding='utf-8').read().splitlines()
-bot = Bot('5352439261:AAFZp-hVIpI5UoJNYTVplAAW_cftKZGc1rE')
+bot = Bot('token')
 dp = Dispatcher(bot)
 
 
